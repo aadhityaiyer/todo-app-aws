@@ -1,0 +1,43 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #282c34; /* Dark background */
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+.container {
+  width: 500px;
+  background: #3a3f4b; /* Lighter dark box */
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+h1 {
+  text-align: center;
+  color: #61dafb; /* React blue color */
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.input-form { display: flex; margin-bottom: 20px; }
+#task-input {
+  flex-grow: 1; padding: 12px;
+  border: 1px solid #61dafb; border-radius: 5px;
+  background: #282c34; color: #ffffff; font-size: 1rem;
+}
+#add-task-btn {
+  padding: 12px 15px; background: #61dafb;
+  color: #282c34; border: none; border-radius: 5px;
+  margin-left: 10px; cursor: pointer; font-weight: bold;
+}
+#task-list { list-style: none; padding: 0; }
+li {
+  padding: 12px; background: #4a505c;
+  border-radius: 5px; margin-bottom: 10px;
+  display: flex; justify-content: space-between;
+  align-items: center; font-size: 1.1rem;
+}
+.delete {
+  color: #ff6b6b; cursor: pointer;
+  font-weight: bold; font-size: 1.2rem;
+}
